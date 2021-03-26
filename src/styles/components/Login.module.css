@@ -1,0 +1,47 @@
+.loginContainer {
+    display: flex;
+    align-items: center;   
+    justify-content: flex-end;
+
+    font-family: Rajdhani;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.buttonLogout {
+    height: 3rem;
+    width: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 5px;
+    background: var(--red);
+    color: var(--white);
+
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    transition: background-color 0.2s;
+}
+
+.buttonLogin {
+    height: 3rem;
+    width: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 5px;
+    background: var(--green);
+    color: var(--white);
+
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    transition: background-color 0.2s;
+}

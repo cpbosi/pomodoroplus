@@ -11,6 +11,7 @@ import { CountDownProvider } from "../contexts/CountDownContext";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
 import { GetServerSideProps } from "next";
 import React from "react";
+import { Login } from "../components/Login";
 
 interface HomeProps {
   level: number;
@@ -32,6 +33,7 @@ export default function Home(props: HomeProps) {
         </title>
         </Head>
 
+        <Login />
         <ExperienceBar />
 
         <CountDownProvider>
